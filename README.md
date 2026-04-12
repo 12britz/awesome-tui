@@ -1,11 +1,5 @@
 # Awesome TUIs
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/rothgar/awesome-tuis?style=flat-square&color=teal" alt="Stars">
-  <img src="https://img.shields.io/github/forks/rothgar/awesome-tuis?style=flat-square&color=teal" alt="Forks">
-  <img src="https://img.shields.io/badge/TUI-Apps-500+-teal?style=flat-square" alt="TUI Apps">
-</p>
-
 > A curated collection of terminal user interface (TUI) applications, frameworks, and libraries. Run rich, interactive applications directly in your terminal.
 
 ---
