@@ -439,6 +439,7 @@ Notes, tasks, and bookmarks.
 | [tui-slides](https://github.com/Chleba/tui-slides) | Terminal presentations | Rust |
 | [bookokrat](https://github.com/bugzmanov/bookokrat) | EPUB/PDF reader | Rust |
 | [lottie](https://github.com/coignard/lottie) | Fountain screenplay | Rust |
+| [Noteforge](https://github.com/12britz/noteforge) | Markdown notes with git version control | Python |
 
 ---
 
