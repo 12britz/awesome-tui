@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="awesome-tui",
     version="0.1.0",
-    description="Browse awesome lists in the terminal",
+    description="A curated collection of TUI applications, frameworks, and libraries",
     packages=find_packages(),
     install_requires=[
         "textual>=0.1.0",
@@ -15,6 +15,13 @@ setup(
         ],
     },
     python_requires=">=3.10",
-    author="Your Name",
-    author_email="your@email.com",
+    author="12britz",
+    author_email="",
+    url="https://github.com/12britz/awesome-tui",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Topic :: Terminal",
+        "License :: OSI Approved :: MIT License",
+    ],
 )
