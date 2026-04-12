@@ -1,0 +1,2 @@
+[console_scripts]
+awesome = awesome_tui.app:main

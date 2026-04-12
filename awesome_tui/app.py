@@ -93,7 +93,7 @@ class AwesomeTUI(App):
         background: {COLORS["selection"]};
     }}
 
-    ListItem:selected {{
+    ListItem:focus {{
         background: {COLORS["sage"]};
         color: {COLORS["paper"]};
     }}
@@ -188,7 +188,7 @@ class AwesomeTUI(App):
         yield Footer()
 
     def on_mount(self) -> None:
-        self.tree = self.query_one("#list_tree", Tree)
+        self.list_tree = self.query_one("#list_tree", Tree)
         self.content = self.query_one("#content", Static)
         self.search_input = self.query_one("#search-input", Input)
 
@@ -196,16 +196,16 @@ class AwesomeTUI(App):
         self.load_lists()
 
     def load_lists(self) -> None:
-        self.tree.clear()
-        root = self.tree.root
+        self.list_tree.clear()
+        root = self.list_tree.root
         for lst in self.POPULAR_LISTS:
             root.add(f"[{lst.name}]", data=lst)
-        self.tree.root.expand_all()
+        self.list_tree.root.expand_all()
 
     def on_tree_node_selected(self, event: "Tree.NodeSelected") -> None:
         lst = event.node.data
         if isinstance(lst, AwesomeList):
-            self.load_list_content(lst)
+            asyncio.create_task(self.load_list_content(lst))
 
     async def load_list_content(self, lst: AwesomeList) -> None:
         self.content.update(f"Loading {lst.name}...")

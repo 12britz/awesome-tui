@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+awesome_tui/__init__.py
+awesome_tui/app.py
+awesome_tui.egg-info/PKG-INFO
+awesome_tui.egg-info/SOURCES.txt
+awesome_tui.egg-info/dependency_links.txt
+awesome_tui.egg-info/entry_points.txt
+awesome_tui.egg-info/requires.txt
+awesome_tui.egg-info/top_level.txt

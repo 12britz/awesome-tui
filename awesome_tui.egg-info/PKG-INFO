@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: awesome-tui
+Version: 0.1.0
+Summary: Browse awesome lists in the terminal
+Author: Your Name
+Author-email: your@email.com
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: textual>=0.1.0
+Requires-Dist: httpx>=0.25.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
