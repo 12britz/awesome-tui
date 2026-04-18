@@ -450,3 +450,19 @@ Contributions welcome! Please open a PR with your TUI application added to the a
 ## License
 
 MIT
+
+---
+
+## New Additions (2025)
+
+Just-added libraries and frameworks:
+
+### Rust
+| [ratatui](https://github.com/ratatui-org/ratatui) | Actively maintained TUI crate | Rust |
+| [iocraft](https://github.com/ccbrown/iocraft) | React-like declarative | Rust |
+
+### Python
+| [Textual](https://github.com/Textualize/textual) | Python TUI framework | Python |
+
+### Go
+| [Bubble Tea](https://github.com/charmbracelet/bubbletea) | Go TUI framework | Go |
