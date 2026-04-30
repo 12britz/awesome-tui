@@ -52,6 +52,10 @@ System monitoring, metrics dashboards, and network tools.
 | [integritop](https://github.com/pythops/tegratop) | Nvidia Jetson monitor | Rust |
 | [bpytop](https://github.com/aristocratos/bpytop) | Python system monitor | Python |
 | [ytop](https://github.com/cjbassi/ytop) | System monitor | Rust |
+| [sysview](https://github.com/12britz/sysview) | Terminal system monitor (CPU, memory, disk) | TypeScript |
+| [nmon](https://github.com/nmon-hex/nmon) | Performance monitor for Linux | C |
+| [atop](https://www.atoptool.nl/) | Advanced system & process monitor | C |
+| [powertop](https://github.com/fenrus75/powertop) | Power usage and battery monitor | C |
 
 ---
 
@@ -64,18 +68,20 @@ Git clients, database tools, API clients, and coding utilities.
 | [lazygit](https://github.com/jesseduffield/lazygit) | Simple git UI | Go |
 | [gitui](https://github.com/extrawurst/gitui) | Blazing fast git UI | Rust |
 | [Gitu](https://github.com/altsem/gitu) | Git client inspired by Magit | Rust |
-| [lazygit](https://github.com/jesseduffield/lazygit) | Git UI | Go |
 | [harlequin](https://github.com/tconbeer/harlequin) | SQL IDE for terminal | Python |
 | [ATAC](https://github.com/Julien-cpsn/ATAC) | Full-featured API client | Rust |
 | [posting](https://github.com/darrenburns/posting) | HTTP client | Python |
 | [slumber](https://github.com/LucasPickering/slumber) | HTTP/REST client | Rust |
 | [CuTE](https://github.com/PThorpe92/CuTE) | curl-based HTTP client | Rust |
+| [zcurl](https://github.com/12britz/zcurl) | Beautiful curl alternative with TUI output | JavaScript |
 | [euporie](https://github.com/joouha/euporie) | Jupyter in terminal | Python |
 | [nap](https://github.com/maaslalani/nap) | Code snippets manager | Go |
 | [rainfrog](https://github.com/achristmascarl/rainfrog) | Database TUI (pg/mysql/sqlite) | Rust |
 | [dblab](https://github.com/danvergara/dblab) | Database client | Go |
 | [gobang](https://github.com/TaKO8Ki/gobang) | Database management | Rust |
+| [chui](https://github.com/kshvakov/chui) | ClickHouse TUI client | Go |
 | [sabiql](https://github.com/riii111/sabiql) | PostgreSQL browser | Rust |
+| [redis-tui](https://github.com/lambdalisue/redis-tui) | Redis TUI client | Go |
 | [tongo](https://github.com/drewzemke/tongo) | MongoDB TUI | Rust |
 | [delta](https://github.com/dandavison/delta) | Syntax-highlighting pager | Rust |
 | [fx](https://github.com/antonmedv/fx) | JSON viewer/processor | Go |
@@ -105,6 +111,10 @@ Git clients, database tools, API clients, and coding utilities.
 | [xplr](https://github.com/sayanarijit/xplr) | Hackable file explorer | Rust |
 | [tenere](https://github.com/pythops/tenere) | LLM interface | Rust |
 | [models](https://github.com/arimxyer/models) | AI models browser | Python |
+| [gh-dash](https://github.com/dlvhdr/gh-dash) | TUI for GitHub PRs and Issues | Go |
+| [gitv](https://github.com/altsem/gitv) | Beautiful GitHub client | Rust |
+| [Froggit](https://github.com/wfxr/Froggit) | Git TUI with GitHub integration | Rust |
+| [act3](https://github.com/renatopp/act3) | GitHub Actions workflow TUI | Go |
 
 ---
 
@@ -153,7 +163,9 @@ Container and Kubernetes management tools.
 | [eks-node-viewer](https://github.com/awslabs/eks-node-viewer/) | EKS usage visualizer | Python |
 | [kftui](https://github.com/hcavarsan/kftray) | kubectl port-forward manager | Rust |
 | [talos-pilot](https://github.com/handfish/talos-pilot) | Talos Linux TUI | Rust |
-| [lazydocker](https://github.com/jesseduffield/lazydocker) | Docker management | Go |
+| [podman-tui](https://github.com/containers/podman-tui) | Podman container manager | Go |
+| [lazypod](https://github.com/steved/lazypod) | Kubernetes pod manager | Rust |
+| [kubectl-tui](https://github.com/hidetatz/kubectl-tui) | Kubernetes TUI | Rust |
 | [sen](https://github.com/TomasTomecek/sen) | Docker engine UI | Python |
 
 ---
@@ -208,6 +220,7 @@ Navigate and manage your filesystem.
 | [binsider](https://github.com/orhun/binsider) | Binary analyzer | Rust |
 | [FileSSH](https://github.com/JayanAXHF/filessh) | Remote file explorer | Rust |
 | [ratatui-explorer](https://github.com/tatounee/ratatui-explorer) | File explorer widget | Rust |
+| [fff](https://github.com/dylanaraps/fff) | Fast minimal file manager | Shell |
 
 ---
 
@@ -245,6 +258,8 @@ Classic games and entertainment.
 | [ratthew](https://github.com/cxreiff/ratthew) | 3D dungeon crawler | Rust |
 | [bastet](https://github.com/fph/bastet) | Evil falling blocks | C++ |
 | [Dealve](https://github.com/kurama/dealve-tui) | Game deals finder | Rust |
+| [angband](https://angband.github.io/) | Classic roguelike dungeon crawler | C |
+| [cataclysm-dda](https://cataclysmdda.org/) | Survival horror roguelike | C++ |
 
 ---
 
@@ -303,6 +318,7 @@ Frameworks and libraries for building TUIs.
 | [FTXUI](https://github.com/ArthurSonzogni/FTXUI) | Functional Terminal UI | C++ |
 | [tvision](https://github.com/magiblot/tvision) | Turbo Vision port | C++ |
 | [FINAL CUT](https://github.com/gansm/finalcut) | Terminal widgets | C++ |
+| [ncurses](https://invisible-island.net/ncurses/) | Classic terminal UI library | C |
 | [Lanterna](https://github.com/mabe02/lanterna) | Text-based UIs | Java |
 | [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) | Turbo Vision style | Java |
 | [ink](https://github.com/vadimdemedes/ink) | React for CLI | JavaScript |
@@ -339,6 +355,9 @@ Email clients, chat applications, and social media.
 | [lobtui](https://github.com/pythops/lobtui) | Lobste.rs reader | Rust |
 | [omaro](https://github.com/Rolv-Apneseth/omaro) | Lobste.rs TUI | Rust |
 | [termchat](https://github.com/lemunozm/termchat) | LAN chat | Rust |
+| [kafka-look](https://github.com/12britz/kafka-look) | Kafka TUI for browsing messages | Python |
+| [profanity](https://github.com/profanity-im/profanity) | XMPP TUI client | C |
+| [finch](https://developer.pidgin.im/wiki/UsingFinch) | Multi-protocol IM client | C |
 
 ---
 
@@ -357,7 +376,6 @@ Other useful terminal tools.
 | [revw](https://github.com/rlelf/revw) | Notes manager | Rust |
 | [basalt](https://github.com/erikjuhani/basalt) | Obsidian vault manager | Rust |
 | [arttime](https://github.com/reportaman/arttime) | Text-art clock | Bash |
-| [cava](https://github.com/karlstav/cava) | Audio visualizer | C |
 | [gpg-tui](https://github.com/orhun/gpg-tui) | GnuPG interface | Rust |
 | [cotp](https://github.com/replydev/cotp) | TOTP/HOTP auth | Rust |
 | [tlock](https://github.com/eklairs/tlock) | 2FA tokens manager | Rust |
@@ -388,13 +406,18 @@ Other useful terminal tools.
 | [systemctl-tui](https://github.com/rgwood/systemctl-tui) | systemd manager | Rust |
 | [isw](https://gitlab.com/thom-cameron/isw) | Stopwatch/timer | Rust |
 | [timr-tui](https://github.com/sectore/timr-tui) | Time tracking | Rust |
-| [sigye](https://github.com/am2rican5/sigye) | FIGlet clock | Rust |
 | [cube](https://github.com/paarthmadan/cube) | Cube timer | Rust |
 | [confetty_rs](https://github.com/Handfish/confetty_rs) | Fireworks in terminal | Rust |
 | [rsfrac](https://github.com/SkwalExe/rsfrac) | Fractal explorer | Rust |
 | [tracker](https://github.com/ShenMian/tracker) | Satellite tracking | Rust |
 | [adsb_deku](https://github.com/wcampbell0x2a/adsb_deku) | ADS-B radar | Rust |
 | [sigye](https://github.com/am2rican5/sigye) | Clock with fonts | Rust |
+| [newsboat](https://newsboat.org/) | RSS/Atom feed reader | C++ |
+| [rtv](https://github.com/michael-lazar/rtv) | Reddit TUI client | Python |
+| [tuir](https://gitlab.com/ajak/tuir) | Reddit TUI client (rtv fork) | Python |
+| [w3m](https://w3m.sourceforge.net/) | TUI web browser | C |
+| [lynx](https://lynx.invisible-island.net/) | TUI web browser | C |
+| [git-flex](https://github.com/12britz/git-flex) | Coding stats TUI | — |
 
 ---
 
