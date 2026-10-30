@@ -56,6 +56,7 @@ System monitoring, metrics dashboards, and network tools.
 | [nmon](https://github.com/nmon-hex/nmon) | Performance monitor for Linux | C |
 | [atop](https://www.atoptool.nl/) | Advanced system & process monitor | C |
 | [powertop](https://github.com/fenrus75/powertop) | Power usage and battery monitor | C |
+| [Kilobat CLI](https://github.com/seifip/kilobat-cli) | macOS network diagnostics and live traffic monitor | Swift |
 
 ---
 
