@@ -192,6 +192,7 @@ Terminal-based text editors.
 | [md-tui](https://github.com/henriklovhaug/md-tui) | Markdown renderer | Rust |
 | [edtui](https://github.com/preiter93/edtui) | Vim-inspired editor widget | Rust |
 | [ratatui-code-editor](https://github.com/vipmax/ratatui-code-editor) | Code editor widget | Rust |
+| [Ordet](https://github.com/LeonardoAmadeo/ordet) | A local-first word processor for the terminal | Rust |
 
 ---
 
